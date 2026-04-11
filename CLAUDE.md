@@ -111,7 +111,7 @@ pub fn key_press(combo: &str) -> Result<String, String>
 ## Testing
 
 - `cargo build` must succeed with zero warnings on the target platform
-- `cargo test` for unit tests (88 tests: json, png, grid, validation, deflate compression, arg parsing)
+- `cargo test` for unit tests (94 tests: json, png, grid, validation, deflate compression, arg parsing)
 - `cargo test -- --ignored` for integration tests (10 tests: require running desktop session)
 - Integration tests require platform-specific setup (input group on Linux, permissions on macOS)
 
